@@ -1,6 +1,14 @@
 # Vehicle Management Database
 
+<p align="center">
+  <img src="images/terminal.png" alt="Menu">
+</p>
+
 The Vehicle Management Database is a project aimed at managing a database of vehicles using SQLite. It provides functionalities for adding, removing, and viewing vehicles in a dealership inventory. The system also supports user authentication and role-based access control.
+
+<p align="center">
+  <img src="images/userdb.png" alt="Database">
+</p>
 
 ## Project Overview
 
