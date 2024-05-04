@@ -1,6 +1,6 @@
 # Vehicle Management Database
 
-The Vehicle Management Database is a project aimed at managing a database of vehicles using MySQL. It provides functionalities for adding, removing, and viewing vehicles in a dealership inventory. The system also supports user authentication and role-based access control.
+The Vehicle Management Database is a project aimed at managing a database of vehicles using SQLite. It provides functionalities for adding, removing, and viewing vehicles in a dealership inventory. The system also supports user authentication and role-based access control.
 
 ## Project Overview
 
@@ -18,7 +18,7 @@ This project consists of several components:
 
 - **AuthenticationManager Class (`AuthenticationManager.cpp`, `AuthenticationManager.h`):** Handles user authentication and role-based access control.
 
-- **DatabaseHandler Class (`DatabaseHandler.cpp`, `DatabaseHandler.h`):** Provides functionalities for interacting with the MySQL database, including saving and loading data.
+- **DatabaseHandler Class (`DatabaseHandler.cpp`, `DatabaseHandler.h`):** Provides functionalities for interacting with the SQLite database, including saving and loading data.
 
 - **UtilityFunctions (`UtilityFunctions.cpp`, `UtilityFunctions.h`):** Contains utility functions used throughout the project, such as clearing the screen and handling user input.
 
@@ -30,11 +30,7 @@ The project uses C++ as the primary programming language and relies on the SQLit
 
 2. **Main Menu:** After logging in, users are presented with a menu of options, depending on their role. Admin users have access to administrative functions such as managing the vehicle inventory and user accounts. Employees can perform tasks related to inventory management, while customers have limited access for browsing available vehicles.
 
-3. **Database Interaction:** The application interacts with the MySQL database to store and retrieve information about vehicles, users, and their roles. It uses SQL queries to perform operations such as inserting new records, updating existing ones, and querying data based on specific criteria.
+3. **Database Interaction:** The application interacts with the SQLite database to store and retrieve information about vehicles, users, and their roles. It uses SQL queries to perform operations such as inserting new records, updating existing ones, and querying data based on specific criteria.
 
 4. **Terminal Interface:** The interaction with the user occurs primarily through the terminal interface. Users navigate the menu by entering numeric options corresponding to different functionalities. The system provides feedback and prompts to guide users through the available actions.
-
-## Terminal Interface
-
-The terminal interface offers a straightforward way for users to interact with the Vehicle Management Database. Here's an example of how it looks:
 
