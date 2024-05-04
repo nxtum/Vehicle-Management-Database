@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/mrtym/OneDrive/Documents/Programming/Management System/cmake-build-debug"
+			"value" : "c:/Users/mrtym/Vehicle-Management-Database/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -154,7 +154,7 @@
 					"value" : "CXX compiler"
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/g++.exe"
 		},
 		{
@@ -298,7 +298,7 @@
 					"value" : "C compiler"
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/gcc.exe"
 		},
 		{
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/mrtym/OneDrive/Documents/Programming/Management System/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/mrtym/Vehicle-Management-Database/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/mrtym/OneDrive/Documents/Programming/Management System"
+			"value" : "C:/Users/mrtym/Vehicle-Management-Database"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1291,7 +1291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/mrtym/OneDrive/Documents/Programming/Management System/cmake-build-debug"
+			"value" : "C:/Users/mrtym/Vehicle-Management-Database/cmake-build-debug"
 		},
 		{
 			"name" : "Management_System_IS_TOP_LEVEL",
@@ -1315,7 +1315,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/mrtym/OneDrive/Documents/Programming/Management System"
+			"value" : "C:/Users/mrtym/Vehicle-Management-Database"
 		},
 		{
 			"name" : "SQLite3_INCLUDE_DIR",

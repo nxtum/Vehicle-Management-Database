@@ -16,8 +16,8 @@ int getTerminalWidth();
 void printCentered(const std::string& text);
 
 int displayMainMenu(AuthenticationManager& authManager, Dealership& dealership){
-    dealership.loadFromFile("inventory.db", "sold_inventory.db");
-    authManager.loadUsers("users.db");
+    //dealership.loadFromFile("inventory.db", "sold_inventory.db");
+    //authManager.loadUsers("users.db");
 
     do {
         printCentered("Welcome to the dealership!");
@@ -86,11 +86,11 @@ int main() {
     AuthenticationManager authManager;
     Dealership dealership;
 
-    /*
+
     authManager.registerUser("admin", "adminpass", "admin");
     authManager.registerUser("employee", "employeepass", "employee");
     authManager.registerUser("customer", "customerpass", "customer");
-    */
+
 
     UtilityFunctions::clearScreen();
     displayMainMenu(authManager, dealership);

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/mrtym/OneDrive/Documents/Programming/Management System
+# Install script for directory: C:/Users/mrtym/Vehicle-Management-Database
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/mrtym/OneDrive/Documents/Programming/Management System/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/mrtym/Vehicle-Management-Database/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
